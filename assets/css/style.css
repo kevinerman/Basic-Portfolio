@@ -1,0 +1,243 @@
+
+/* Header formatting */
+
+.header {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    top:0;
+    left:-165px;
+    width: 100%;
+   background-color:#ffffff;
+   padding-left:20%;
+   border-bottom: 2px solid #dddddd;
+   overflow:hidden;
+  }
+  
+/* links positioning */
+
+  .links {
+   font-size: 60%;
+   float: right;
+   padding-top: 10px;
+    padding-right:28%;
+  }
+
+/* removing underline from anchors */
+
+  a {
+      text-decoration: none;
+  }
+
+/* removing x-scroll and background image */
+
+  body {
+    overflow:hidden;
+    background-image: url(../images/dark-triangles.png)
+  }
+  
+/* formatting for main body */
+
+  .body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    color:#777777;
+    position: absolute;
+    height: 65%;
+    width: 65%;
+    border: 2px solid #dddddd;
+    margin-left:210px;
+    margin-top: 5%;
+    padding-left: 20px;
+    padding-right:30px;
+    padding-bottom: 40px;
+  }
+
+/* aboutme picture formatting */
+
+  #profile {
+      float:left;
+      padding: 10px 20px 10px 0px;
+  }
+  
+/* formatting name text in header */
+
+  span1 {
+    color:#ffffff;
+    background:#4aaaa5;
+    width: 100%;
+    margin-left: 5%;
+    margin-right:200px;
+    padding: 20px;
+  }
+
+/* formatting header in body */
+  
+span2 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+  }
+
+/* formatting main text in body */
+
+span3 {
+    font-family:'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+/* formatting messages form in contact */
+
+span4 {
+    padding: 0 20px 20px 0;
+    padding-bottom: 50px;
+}
+
+/* default image resizing */
+
+img {
+    height:200px;
+    width:auto;
+}
+
+/* power ranger picture sizing */
+
+img[src="assets/images/halloween.jpg"] {
+    height:435px;
+    width:auto;
+}
+
+/* cowboy picture resizing */
+
+img[src="assets/images/cowboy.jpg"] {
+    height:435px;
+}
+
+/* class for images in portfolio */
+
+.images {
+    float:left;
+    position:absolute;
+}
+
+/* improv picture formatting */
+
+.improv {
+    float:left;
+    position:relative;
+    top:0;
+    clear:both;
+    z-index:5;
+}
+
+/* improv textbox formatting */
+
+.improvtext {
+    text-align:center;
+    background: #4aaaa5;
+    color:white;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    padding: 10px 127px 10px 120px;
+    z-index:10;
+}
+
+/* power rangers picture formatting */
+
+.halloween {
+    position:absolute;
+    left:650px;
+}
+
+/* power rangers textbox formatting */
+
+.halloweentext {
+    text-align:center;
+    background: #4aaaa5;
+    color:white;
+    position:absolute;
+    left:651px; 
+    bottom:-240px;
+    padding: 10px 95px 10px 90px;
+    z-index:10;
+    white-space: nowrap;
+}
+
+/* wedding image formatting */
+
+.wedding {
+    position:absolute;
+    top:235px;
+}
+
+/* wedding textbox formatting */
+
+.weddingtext {
+    text-align:center;
+    background: #4aaaa5;
+    color:white;
+    position:absolute;
+    left:0;
+    top:375px;
+    padding: 10px 127px 10px 101px;
+    z-index:10;
+    white-space: nowrap;
+}
+
+/* cowboy image formatting */
+
+.cowboy {
+    position:absolute;
+    left:318px;
+}
+
+/* cowboy textbox formatting */
+
+.cowboytext {
+    text-align:center;
+    background: #4aaaa5;
+    color:white;
+    position:absolute;
+    left:318px;
+    top:375px;
+    padding: 10px 105px 10px 102px;
+    z-index:10;
+    white-space: nowrap;
+}
+
+/* formatting for input fields in contact */
+
+input[type=text] {
+    width:95%;
+    padding:10px;
+    margin-bottom:20px; 
+}
+
+/* submit button formatting */
+
+input[type=submit] {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    background:#4aaaa5;
+    color:white;
+}
+
+/* textarea formatting for messages field */
+
+textarea {
+    width:97%;
+    margin-bottom: 20px;
+}   
+
+/* footer formatting */
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#666666;
+    border-top: 4px solid #4aaaa5;
+    color:#ffffff;
+    font-size: 75%;
+}
+
